@@ -56,16 +56,23 @@
 				<a class="notify-btn" target="_blank" href="https://www.runnable.run/"><i class="fa fa-book" aria-hidden="true"></i><b> Blog</b></a>
 				<a class="notify-btn" target="_blank" href="https://996.ninja/">🥷<b> 996 Ninja</b></a>
 
-<!--				<ul class="social-btn font-white">-->
-<!--					<li><a href="https://www.linkedin.com/in/sankalp-verma-9b9b921a0/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>-->
-<!--					<li><a href="https://www.facebook.com/sankalp.verma.980/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>-->
-<!--					<li><a href="https://www.instagram.com/sankalp._.verma_/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>-->
-<!--					<li><a href="https://steamcommunity.com/id/Shanky_Killa"><i class="fa fa-steam" aria-hidden="true"></i></a></li>-->
-<!--				</ul>&lt;!&ndash; social-btn &ndash;&gt;-->
+				<ul class="social-btn font-white">
+					<li><a href="https://linux.do/u/asherk/summary"><i class="fa fa-linux" aria-hidden="true"></i></a></li>
+					<li><a onclick="showMusic()" ><i class="fa fa-headphones" aria-hidden="true"></i></a></li>
 
+				</ul>
+				<div id="musicIframe" style="position:fixed;bottom: 0px;left: 0px;display: none;">
+					<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=426291436&auto=0&height=32"></iframe>
+				</div>
 			</div><!-- display-table -->
 		</div><!-- display-table-cell -->
 	</div><!-- main-area -->
 
 </body>
+<script type="application/javascript">
+	function showMusic(){
+		document.getElementById("musicIframe").style.display = 'block';
+	}
+</script>
+
 </html>
