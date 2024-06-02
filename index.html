@@ -23,13 +23,19 @@
 
 	<link href="comingsooncss/css/responsive.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
+	<style>
+		@font-face {
+			font-family: "fusion-pixel";
+			src: url("./fonts/fusion-pixel-font/fusion-pixel-12px-monospaced-zh_hans.ttf");
+		}
+	</style>
 </head>
 <body>
 
-	<div class="main-area center-text" style="background-image:url(images/countdown-3-1600x900.jpg);">
+	<div class="main-area center-text" style="background-image:url(images/background.jpg);background-position: 400px -200px;">
 
-		<div class="display-table">
+		<div class="display-table" style="">
 			<div class="display-table-cell">
 
 				<div class="foo">
@@ -45,7 +51,7 @@
  					<span class="letter" data-letter="O">O</span>
  					<span class="letter" data-letter="N">N</span>
 
-				<h5 class="desc font-white">This website is currently under Development.</h5>
+				<h5 class="desc font-white" style="font-family: fusion-pixel">This website is currently under Development.</h5>
 
 				<a class="notify-btn" target="_blank" href="https://github.com/MingGH"><i class="fa fa-github" aria-hidden="true"></i><b> GITHUB</b></a>
 				<a class="notify-btn" target="_blank" href="https://www.runnable.run/"><i class="fa fa-book" aria-hidden="true"></i><b> Blog</b></a>
